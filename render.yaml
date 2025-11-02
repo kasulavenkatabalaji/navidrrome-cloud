@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: navidrome
+    env: docker
+    plan: free
+    autoDeploy: true
+    dockerCommand: ""
+    envVars:
+      - key: ND_MUSICFOLDER
+        value: /music
+      - key: ND_DATAFOLDER
+        value: /data
