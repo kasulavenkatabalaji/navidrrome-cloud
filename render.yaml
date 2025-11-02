@@ -4,7 +4,6 @@ services:
     env: docker
     plan: free
     autoDeploy: true
-    dockerCommand: ""
     envVars:
       - key: ND_MUSICFOLDER
         value: /music
